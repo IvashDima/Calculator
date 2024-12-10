@@ -33,17 +33,14 @@ public class Demo {
                 res=intro();
                 result = res[0] + res[1];
                 System.out.println("Result: " + result);
-                
             } else if (person == 2) {
                 res=intro();
                 result = res[0] - res[1];
                 System.out.println("Result: " + result);
-
             } else if (person == 3) {
                 res=intro();
                 result = res[0] * res[1];
                 System.out.println("Result: " + result);
-
             } else if (person == 4) {
                 res=intro();
                 if(res[1]==0){
